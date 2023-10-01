@@ -691,3 +691,129 @@ video {
     line-height: 16px;
   }
 }
+
+@media (min-width: 992px) {
+  #nav {
+    padding: 0 120px;
+  }
+
+  #nav img {
+    height: 4.5vw;
+  }
+
+  #nav h4 {
+    font-size: 1.15vw;
+  }
+
+  #page1 h1 {
+    font-size: 7.5vw;
+  }
+
+  #page1 h1::before {
+    font-size: 7.5vw;
+  }
+
+  #page1 h2 {
+    font-size: 30px;
+  }
+
+  #page1 p {
+    font-size: 1.2vw;
+    width: 40%;
+  }
+
+  #page1 #arrow {
+    height: 250px;
+    width: 250px;
+    font-size: 50px;
+    left: -2%;
+    bottom: 0%;
+  }
+
+  #page2 h4 {
+    font-size: 120px;
+  }
+
+  #about-us img {
+    height: 220px;
+    width: 220px;
+  }
+
+  #about-us-in h3 {
+    font-size: 54px;
+  }
+
+  #about-us-in p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  #cards-container {
+    gap: 70px;
+  }
+
+  .card {
+    height: 80%;
+    width: 24%;
+  }
+
+  .overlay h4 {
+    font-size: 40px;
+  }
+
+  .overlay p {
+    font-size: 18px;
+  }
+
+  #green-div h4 {
+    font-size: 27px;
+    line-height: 50px;
+  }
+
+  #green-div img {
+    width: 14%;
+  }
+
+  #page3 p {
+    font-size: 35px;
+    width: 60%;
+    line-height: 45px;
+  }
+
+  #page3 img {
+    height: 60px;
+  }
+
+  #page3 #colon1,
+  #page3 #colon2 {
+    height: 30px;
+    width: 30px;
+  }
+
+  #page4 h1 {
+    font-size: 6.4vw;
+  }
+
+  .elem h2 {
+    font-size: 2vw;
+  }
+
+  #footer {
+    gap: 6.5vw;
+    padding: 0 100px;
+  }
+
+  #f1 img {
+    height: 100px;
+  }
+
+  #f2 h3,
+  #f3 h3 {
+    font-size: 1.6vw;
+  }
+
+  #f4 h4 {
+    font-size: 0.8rem;
+    line-height: 16px;
+  }
+}
